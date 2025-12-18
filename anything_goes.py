@@ -1,6 +1,6 @@
 # FILE NAME - anything_goes.py
 # NAME: Max Perrin
-# DATE: 12/12/25 - Originally put in wrong git account since I was on my desktop couldn't figure out why I couldn't see it on my laptop at first haha.
+# DATE: 12/12/25 
 # BRIEF DESCRIPTION:
 # Budget Buddy is a simple menu-driven budget tracker. It manages expenses by letting the user add transactions, 
 # view/edit/delete them, set budgets by category, checks if there over budget and export a report to a text file. 
@@ -427,71 +427,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-########################################
-#          REFLECTION QUESTIONS
-########################################
-
-'''
-Remember to cite any sources you used to help you complete this project.
-You can do that here in this section or cite as comments throughout your code.
-
-1. How did you choose the goal of your program?
-I chose a budget tracker because I have multiple income streams and I wanted one place to record
-both income and expenses. This idea felt realistic and useful, and it also fit the project requirements while I was planning to make one anyway.
-
-2. What part of this project challenged you the most? How did you work through that challenge?
-The hardest part was saving and loading data correctly so it would still be there after the program closed.
-I solved it by using a CSV file for transactions and a JSON file for budgets. I also tested the program
-with different inputs (blank input, wrong numbers, etc.) and added checks/try-except to prevent crashes.
-
-3. If you had 10 more hours to improve or expand your program, what would you change? Why?
-I would add searching and filtering (like showing only one month or one category), and I would add a
-simple chart output (like a text-based bar chart) to make spending patterns easier to understand.
-I would also add an option to sort transactions by date.
-
-Just to end off I hope you enjoyed what I did with the project and how it turned out, Even though we only exchanged a few emails I appreciated your feedback and material and I wish you all the best
-'''
-
-
-
-
-
-
-
-
-
-########################################
-#          REFLECTION QUESTIONS
-########################################
-
-'''
-
-Remember to cite any sources you used to help you complete this project.
-You can do that here in this section or cite as comments throughout your code.
-
- 1. How did you choose the goal of your program?
- I chose a budget tracker because I have multiple income streams and I wanted one place to record
- both income and expenses. This idea felt realistic and useful, and it also fit the project requirements.
-
- 2. What part of this project challenged you the most? How did you work through that challenge?
- The hardest part was saving and loading data correctly so it would still be there after the program closed.
- I solved it by using a CSV file for transactions and a JSON file for budgets. I also tested the program
- with different inputs (blank input, wrong numbers, etc.) and added checks/try except to prevent crashings.
-
- 3. If you had 10 more hours to improve or expand your program, what would you change? Why?
- I would add searching and filtering (like showing only one month or one category), and I would add a
- simple chart output (like a text-based bar chart) to make spending patterns easier to understand.
- I would also add an option to sort transactions by date.
-
-'''
-
-
-
-
-
-
 
 
 
